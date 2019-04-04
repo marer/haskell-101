@@ -1,4 +1,4 @@
-module Pizza where
+module Gpwh.Pizza where
 
 main :: IO ()
 main = do

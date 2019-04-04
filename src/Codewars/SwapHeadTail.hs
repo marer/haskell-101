@@ -1,4 +1,4 @@
-module SwapHeadTail where
+module Codewars.SwapHeadTail where
 
 swapHeadAndTail :: [Int] -> [Int]
 swapHeadAndTail [] = []

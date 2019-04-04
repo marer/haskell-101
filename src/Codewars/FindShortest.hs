@@ -1,4 +1,4 @@
-module FindShortest where
+module Codewars.FindShortest where
 import Data.List (sortBy)
 
 find_shortest :: String -> Integer

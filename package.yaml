@@ -30,6 +30,7 @@ library:
     - text
     - unicode-show
     - split
+    - bytestring
 
 executables:
   haskell101-exe:
@@ -41,10 +42,6 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - haskell101
-    - containers
-    - text
-    - unicode-show
-    - split
 
 tests:
   haskell101-test:

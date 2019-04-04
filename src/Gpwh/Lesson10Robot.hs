@@ -1,4 +1,4 @@
-module Lesson10Robot where 
+module Gpwh.Lesson10Robot where
 
 robot (name, attack, hp) = \message -> message (name, attack, hp)
 

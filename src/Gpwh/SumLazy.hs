@@ -1,4 +1,4 @@
-module SumLazy where 
+module Gpwh.SumLazy where
 import Control.Monad
 import System.Environment
 

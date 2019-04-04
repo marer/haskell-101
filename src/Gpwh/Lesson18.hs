@@ -1,4 +1,4 @@
-module Lesson18 where
+module Gpwh.Lesson18 where
 import qualified Data.Map.Strict as Map
 
 data Organ = Heart | Liver | Spleen | Brain | Leg deriving (Eq, Show, Ord)

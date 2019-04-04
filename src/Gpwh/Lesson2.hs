@@ -1,3 +1,5 @@
+module Gpwh.Lesson2 where
+
 simple x = x
 
 f x = x ^2

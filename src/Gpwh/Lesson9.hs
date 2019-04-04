@@ -1,4 +1,4 @@
-module Lesson9 where
+module Gpwh.Lesson9 where
 import Data.Char
 
 x = ["foo", "bar", "baz", "omg"]

@@ -1,4 +1,4 @@
-module Kata.YourOrderPlease where
+module Codewars.YourOrderPlease where
 
 import Data.List (intercalate, sortBy)
 import Data.Char (isNumber)

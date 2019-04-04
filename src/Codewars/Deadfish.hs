@@ -1,9 +1,9 @@
-module Deadfish where
+module Codewars.Deadfish where
 
 parse :: String -> [Int]
 parse = reverse . fst . foldl _parse ([], 0)
-    where 
-    _parse (out, n) op 
+    where
+    _parse (out, n) op
         | op == 'i' = (out, n + 1)
         | op == 'd' = (out, n - 1)
         | op == 's' = (out, n * n)

@@ -1,4 +1,4 @@
-module Lesson15 where
+module Gpwh.Lesson15 where
 
 rotN :: (Bounded a, Enum a) => Int -> a -> a
 rotN asize c = toEnum $ flip mod asize $ (+) (div asize 2) $ fromEnum c

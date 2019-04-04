@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Gpwh.Lesson1 where
+
+myMain :: IO()
+myMain = do
   print "What's your name?"
   name <- getLine
   print "What's your age?"
@@ -8,11 +10,11 @@ main = do
 
 agePart age = "(" ++ age ++ "L)"
 namePart name = "Hello " ++ name
-greeting name age = namePart name ++ 
+greeting name age = namePart name ++
                     agePart age
 
 ask :: String -> IO(String)
 ask question = do
   print question
   answer <- getLine
-  return answer       
+  return answer

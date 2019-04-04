@@ -1,4 +1,4 @@
-module Lesson17 where
+module Gpwh.Lesson17 where
 import Data.Semigroup
 import Data.List
 import Data.Monoid
@@ -12,10 +12,9 @@ instance Semigroup Color where
     (<>) Blue Red = Purple
     (<>) Blue Yellow = Green
     (<>) Yellow Blue = Green
-    (<>) a b 
+    (<>) a b
         | a == b = a
         | all (`elem` [Red, Blue, Purple]) [a, b] = Purple
         | all (`elem` [Yellow, Blue, Orange]) [a, b] = Orange
         | all (`elem` [Yellow, Blue, Green]) [a, b] = Green
         | otherwise = Brown
-        

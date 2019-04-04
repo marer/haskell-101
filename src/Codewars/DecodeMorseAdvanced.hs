@@ -7,7 +7,7 @@ import Data.Char (isSpace)
 
 decodeBits :: String -> String
 decodeBits bits = mconcat $ zipWith decode groups lengths
-    where 
+    where
     groups = group $ trim (=='0') bits
     lengths = map length groups
     blockSize = minimum lengths
@@ -18,7 +18,7 @@ decodeBits bits = mconcat $ zipWith decode groups lengths
         | len == 3 * blockSize = " "
         | len == 7 * blockSize = "   "
 
-    
+
 -- decodeMorse :: String -> String
 -- decodeMorse = unwords . map mapWord . splitOn "   " . trim isSpace
 --     where
