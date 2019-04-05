@@ -26,7 +26,7 @@ glitcher = do
   let fileName = head args
   imageFile <- BC.readFile $ "data/" <> fileName
   glitched <- foldM (\bytes func -> func bytes) imageFile glitchActions
-  let glitchedFileName = mconcat ["data/glitched_",fileName]
+  let glitchedFileName = mconcat ["data/tmp/glitched_",fileName]
   BC.writeFile glitchedFileName glitched
   print "all done"
 

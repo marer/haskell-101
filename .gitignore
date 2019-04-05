@@ -1,3 +1,5 @@
 .stack-work/
 haskell101.cabal
 *~
+data/tmp/*
+!data/tmp/.gitkeep
